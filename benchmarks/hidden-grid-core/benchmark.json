@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "pack_id": "core",
+  "plugin": "hidden-grid",
+  "catalog": "catalog.json"
+}

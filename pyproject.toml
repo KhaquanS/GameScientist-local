@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gamescientist"
+version = "0.1.0"
+description = "A benchmark for discovering and solving novel games through interaction"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+gamescientist = "gamescientist.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv.workspace]
+members = ["plugins/*"]

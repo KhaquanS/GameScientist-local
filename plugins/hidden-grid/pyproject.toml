@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gamescientist-hidden-grid"
+version = "0.1.0"
+description = "Hidden two-dimensional grid game plugin for GameScientist"
+requires-python = ">=3.9"
+dependencies = ["gamescientist==0.1.0"]
+
+[project.entry-points."gamescientist.games"]
+hidden-grid = "gamescientist_hidden_grid.plugin:HiddenGridPlugin"
+
+[tool.setuptools.packages.find]
+where = ["src"]

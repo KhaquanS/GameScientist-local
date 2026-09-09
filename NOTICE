@@ -1,0 +1,6 @@
+GameScientist was bootstrapped from architectural ideas in GameCodeBench's
+Rhenium core, including game-neutral orchestration, independent plugin
+discovery, versioned benchmark packs, and canonical task identities.
+
+No existing game pack, private evaluator asset, or proprietary runtime is
+included in this repository.

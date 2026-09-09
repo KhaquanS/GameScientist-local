@@ -1,0 +1,15 @@
+{
+  "id": "hidden-grid-core",
+  "version": "0.1.0",
+  "game": "hidden-grid",
+  "tasks": [
+    {
+      "id": "pacman-unknown",
+      "name": "Unknown Grid",
+      "summary": "Explore the grid and obtain the best terminal reward you can within the move budget.",
+      "actions": ["up", "down", "left", "right"],
+      "step_budget": 8,
+      "private_config": "private/games/pacman-unknown/initial-state.json"
+    }
+  ]
+}
